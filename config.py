@@ -2,9 +2,9 @@
 from os import getenv
 
 
-API_ID = int(getenv("API_ID", "18618422"))
-API_HASH = getenv("API_HASH", "f165b1caec3cfa4df943fe1cbe82d22a")
-BOT_TOKEN = getenv("BOT_TOKEN", "8071764665:AAF5zG5aZtfA0fWAPbDm14LDGbbLxs-dcN0")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 OWNER_ID = int(getenv("OWNER_ID", "5443679321"))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5443679321 2112898623").split()))
 MONGO_URL = getenv("MONGO_DB", "mongodb+srv://daxxop:daxxop@daxxop.dg3umlc.mongodb.net/?retryWrites=true&w=majority")
